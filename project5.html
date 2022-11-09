@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap" rel="stylesheet"> -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/451bcfa550.js" crossorigin="anonymous"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+
+</head>
+<style>
+    body{
+        margin:0px;
+        /* min-width: ; */
+    }
+    .home{
+        /* background-color:#212529; */
+        background-image: url(website-3374825_1920.jpg);
+        width:100%;
+        height:650px;
+    }
+    /* .home:hover{
+        opacity: 0.6;
+        cursor:pointer;
+    } */
+   .bg{
+    background-image: linear-gradient(rgb(87, 86, 86),lightgrey);
+   }
+   .web{
+    color:white;
+    font-size: 65px;
+    /* margin:inline; */
+    padding: 4%;
+    /* font-family: 'Dancing Script', cursive; */
+    font-family: 'Cinzel', serif;
+    /* font-family: 'Ubuntu', sans-serif; */
+    text-shadow:5px 4px 4px rgb(31, 29, 29);
+   }
+   .arrow{
+    /* color:rgb(130, 5, 219); */
+    /* margin-top: 2%; */
+    font-size: 50px;
+    animation:3s arrow;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+    text-shadow:5px 4px 4px black;
+   }
+   @keyframes arrow{
+    0%{
+        margin-top:4%;
+        color:white
+    }
+    50%{
+        margin-top: 8%;
+        color:rgb(205, 139, 252);
+    }
+    100%{
+        margin-top: 4%;
+        color:white;
+    }
+   }
+   .b{
+    padding:10px;
+    display:block;
+    margin-top: 5%;
+    color:white;
+    font-family: 'Cinzel', serif;
+    font-size: 24px;
+    border-radius: 10px;
+    text-shadow: 5px 4px 4px black;
+    box-shadow: 8px 8px 5px black;
+    transition: 0.3s ease-in-out;
+   }
+   .slide{
+    margin-top: 5%;
+    background-image:linear-gradient(rgb(145, 5, 145),rgb(79, 3, 79));
+    /* background-image: linear-gradient(rgb(119, 11, 213),black); */
+    height:450px;
+   }
+   .me{
+    margin-top: 10%;
+    font-family: 'Cinzel', serif;
+    text-shadow:2px 2px 2px rgb(31, 29, 29);
+    color:rgb(90, 2, 173);
+   }
+   .me:hover{
+    width:200px;
+    background-image:linear-gradient(rgb(145, 5, 145),rgb(79, 3, 79));
+    color:aliceblue;
+    padding-top:1%;
+    padding-bottom: 1%;
+    border-radius: 5px;
+    cursor:pointer;
+    text-shadow:2px 2px 2px rgb(198, 196, 196);
+    transition: 0.3s ease-in-out;
+   }
+   .subhead{
+    color:white;
+    font-family: 'Cinzel', serif;
+
+   }
+   .nav-link{
+    color:black;
+    /* font-family: 'Cinzel', serif; */
+    font-family: 'Roboto Slab', serif;
+
+    font-size: 22px;
+   }
+   .development{
+    /* font-family: 'Cinzel', serif; */
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 25px;
+    color:black;
+    margin-left: 5%;
+   }
+   .abc{
+    margin-left: 15%;
+    margin-right: 15%;
+    /* height:200px; */
+    color:white;
+    font-family: 'Cinzel', serif;
+    margin-top: 5%;
+    
+   }
+   .bcd{
+    /* height:200px; */
+    color:white;
+    font-family: 'Cinzel', serif;
+    margin-top: 2%;
+    text-shadow:4px 2px 2px rgb(31, 29, 29);
+   }
+   .heartss{
+    color:pink;
+    font-size: 20px;
+   }
+   .bu{
+    /* background-image: linear-gradient(rgb(119, 11, 213),black); */
+    background-image:linear-gradient(rgb(145, 5, 145),rgb(79, 3, 79));
+    /* color:white; */
+    box-shadow: 8px 8px 5px black;
+   }
+   .xyz{
+    color:aliceblue;
+    font-family: 'Cinzel', serif;
+    font-size: 25px;
+    text-decoration: none;
+    /* margin-top: 10%; */
+   }
+   .xyz:hover{
+    color:yellow;
+    padding:0px;
+    transition: 0.3s ease-in-out;
+   }
+   .hehe{
+    margin-top: 15%;
+    margin-bottom: 15%;
+   }
+   .foot{
+    background-image:linear-gradient(rgb(145, 5, 145),rgb(79, 3, 79));
+    height:200px;
+    margin-top:5%;
+   }
+   .media{
+    font-size: 40px;
+    color:white;
+    margin-top:10%;
+    padding-right:5%;
+   }
+   .media:hover{
+    transition: 0.3s ease-in-out;
+    text-shadow:5px 5px 3px black;
+   }
+   .swaru{
+    margin-top: 20px;
+    border-radius: 20px;
+    transition: 0.3s ease-in-out;
+    
+   }
+   .durga{
+    margin-left: 10%;
+    transition: 0.3s ease-in-out;
+   }
+    
+
+</style>
+<body>
+    <section id="home">
+
+          <nav class="navbar navbar-expand-lg navbar-dark bg " id="bclr">
+            <a class="navbar-brand development" href="" id="navbrd">Web Developement</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home" >Home</a>
+                    </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#aboutme" >About Me</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#contact" >Get Connected</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#resume" >Resume</a>
+                  </li>
+                </ul>
+            </div>
+          </nav>
+    </section>
+
+
+    <section>
+        <div class="home">
+            <center>
+                <h1 class="web">Web Developer</h1>
+                <h3 class="subhead">Bring your dreams to life</h3>
+                <button type="button" class="btn btn-outline-dark b">explore more about me</button>
+                <a href="#aboutme"><i class="fa-solid fa-angles-down arrow"></i></a>
+            </center>
+        </div>
+    </section>
+    
+
+    <section id="aboutme">
+        <div>
+            <center>
+                <h2 class="me">ABOUT ME</h2>
+            </center>
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <center>
+                        <h2 class="bcd">My brief introduction</h2>
+                        <h4 class="abc">Hello everyone!! My name is Swarnali Mukhopadhyay and i  have been born and brought up in Durgapur, a very beautiful place in West Bengal</h4>
+                        <img class= "swaru" src="Kolkata in West Bengal, India at Nightfall_.png" width="150px" height="150px" border-radius="10px" alt="">
+                        <img class= "swaru durga" src="download.jpg" width="150px" height="150px" border-radius="10px" alt="">
+                    </center>
+                  </div>
+                  <div class="carousel-item">
+                    <center>
+                        <h2 class="bcd">My schooling</h2>
+                        <h4 class="abc">I have done my 10th and 12th from Hem Sheela Model School, durgapur.I was appointed as vice captain in my 9th standard and captain in 10th. </h4>
+                    <img src="school-supplies-3033204_1280.jpg" width="150px" height="150px" class= "swaru" border-radius="10px" alt="">
+                    </center>
+                  </div>
+                  <div class="carousel-item">
+                    <center>
+                        <h2 class="bcd">Achievements</h2>
+                        <h4 class="abc">Recitation: I am  State-level bengali recitor. I have secured 96.8 % in my 10th and 95.8 % in my 12th.</h4>
+                        <img src="Sports Medal and Trophy Display.jpg" width="150px" height="150px" border-radius="10px" class="swaru" alt="">
+                    </center>    
+                </div>
+                <div class="carousel-item">
+                    <center>
+                        <h2 class="bcd">Hobbies</h2>
+                        <h4 class="abc">I <i class="fa-solid fa-heart heartss"></i> love dancing, painting, travelling. I have a keen interest in Indian History especially Ramayana and Mahabharata </h4>
+                        <img src="Mahabharat Sketch.jpg" width="150px" height="150px" class="swaru" border-radius="10px" alt="">
+                        <img src="The Inner Ramayana.jpg" width="150px" height="150px" class="swaru durga" border-radius="10px" alt="">
+                        <img src="World Ethnic & Cultural Beauties.jpg" width="150px" height="150px" class="swaru durga" border-radius="10px" alt="">
+                    </center>    
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </div>
+
+    </section>
+
+
+    <section>
+        <center>
+            <div class="d-grid gap-2 col-3 mx-auto hehe">
+                <button class="btn btn-primary bu" type="button"><a class=" xyz"href="resume.html" target="_blank">My Resume</a></button>
+            </div>
+        </center>
+    </section>
+
+    <section id="contact">
+        <center>
+            <div>
+                <h2 class="me">Contact</h2>
+
+            </div>
+            <div class="foot">
+                <a href="https://www.facebook.com/profile.php?id=100081682637258" target="_blank"><i class="fa-brands fa-facebook media"></i></a>
+                <a href="https://www.instagram.com/_swaru26/" target="_blank"><i class="fa-brands fa-instagram media "></i></a>
+            </div>
+        </center>
+    </section>
+</body>
+</html>
